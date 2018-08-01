@@ -1,0 +1,25 @@
+{
+  "editor.fontSize": 16,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "prettier.eslintIntegration": true,
+  "javascript.format.enable": false,
+  "javascript.validate.enable": false,
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "javascriptreact"
+  },
+  "window.zoomLevel": 0,
+  "emmet.triggerExpansionOnTab": true,
+  "flow.useNPMPackagedFlow": true,
+  "flow.runOnEdit": false,
+  "workbench.colorTheme": "Monokai Pro",
+  "workbench.iconTheme": "Monokai Pro Icons",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.autoSave": "off",
+  "editor.multiCursorModifier": "ctrlCmd"
+}
