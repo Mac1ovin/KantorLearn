@@ -1,15 +1,15 @@
 "use strict";
-var x = +prompt("x?"'');
-var n = +prompt("n?"'');
-var b;
+var x = prompt("x?", "");
+var n = prompt("n?", "");
 
 function pow(x, n) {
   var i = 1;
+  var result = x;
   while (i < n) {
     i++;
-    b = x *= n;
+    result = x * result;
   }
-  return b;
+  return result;
 }
 
 alert(pow(x, n));
